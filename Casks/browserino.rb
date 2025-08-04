@@ -1,6 +1,6 @@
 cask "browserino" do
-  version "1.1.10"
-  sha256 "6ec1059510f1713306672824747a3f997805524f2c177337ee6ccc027c73da08"
+  version "1.1.11"
+  sha256 "c2e708f52d00dcaa942444796ec8da5bd66eeda5961f7e4b2683c8d6e5842dea"
 
   url "https://github.com/AlexStrNik/Browserino/releases/download/v#{version}/Browserino.zip"
   name "Browserino"
