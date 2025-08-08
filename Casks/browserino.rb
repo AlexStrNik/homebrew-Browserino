@@ -1,6 +1,6 @@
 cask "browserino" do
-  version "1.1.11"
-  sha256 "c2e708f52d00dcaa942444796ec8da5bd66eeda5961f7e4b2683c8d6e5842dea"
+  version "1.1.12"
+  sha256 "47fdb300e2d7054f96998092b2830a5d4db740307b73c8146e498c94bf8ca75d"
 
   url "https://github.com/AlexStrNik/Browserino/releases/download/v#{version}/Browserino.zip"
   name "Browserino"
@@ -8,7 +8,7 @@ cask "browserino" do
   homepage "https://github.com/AlexStrNik/Browserino"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :ventura"
 
   app "Browserino.app"
 
