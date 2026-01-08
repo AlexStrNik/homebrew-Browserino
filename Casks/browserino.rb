@@ -7,7 +7,7 @@ cask "browserino" do
   desc "Browserino is a tiny browser selector for MacOS written in SwiftUI"
   homepage "https://github.com/AlexStrNik/Browserino"
 
-  auto_updates true
+  auto_updates false
   depends_on macos: ">= :ventura"
 
   app "Browserino.app"
